@@ -1,0 +1,151 @@
+.gallery{
+    
+    margin: 50px;
+
+    h1{
+        text-align: center;
+
+        padding-bottom: 50px;
+
+        font-size: 48px;
+        font-family:$main-font;
+    }
+
+    .gallery-images{
+
+        max-width: 1280px;
+        min-height: 100px;
+
+        //background-color: green;
+
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .gallery-images-columnleft{
+
+            width: 400px;
+            min-height: 400px;
+
+            //background-color: blue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .sixteenbynine{
+
+                //background-color: lightblue;
+
+                width: 400px;
+                height: 710px;
+
+                margin-bottom: 20px;
+
+                img{
+                    width: 400px;
+                    height: 710px;
+                }
+            }
+
+            .fourbyfive{
+
+                height: 500px;
+                width: 400px;
+
+                //background-color: lightblue;
+
+                margin-bottom: 20px;
+
+                img{
+                    width: 400px;
+                    height: 500px;
+                }
+            }
+        }
+
+        .gallery-images-columnmiddle{
+
+            width: 400px;
+            min-height: 400px;
+
+            //background-color: blue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .sixteenbynine{
+
+                //background-color: lightblue;
+
+                width: 400px;
+                height: 710px;
+
+                margin-bottom: 20px;
+
+                img{
+                    width: 400px;
+                    height: 710px;
+                }
+            }
+
+            .fourbyfive{
+
+                height: 500px;
+                width: 400px;
+
+                // background-color: lightblue;
+
+                margin-bottom: 20px;
+
+                img{
+                    width: 400px;
+                    height: 500px;
+                }
+            }
+        }
+        .gallery-images-columnright{
+
+            width: 400px;
+            min-height: 400px;
+
+            //background-color: blue;
+
+            .sixteenbynine{
+
+                // background-color: lightblue;
+
+                width: 400px;
+                height: 710px;
+
+                margin-bottom: 20px;
+
+                img{
+                    width: 400px;
+                    height: 710px;
+                }
+            }
+
+            .fourbyfive{
+
+                height: 500px;
+                width: 400px;
+
+                // background-color: lightblue;
+
+                margin-bottom: 20px;
+
+                img{
+                    width: 400px;
+                    height: 500px;
+                }
+            }
+        }
+
+    }
+}

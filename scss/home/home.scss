@@ -1,0 +1,94 @@
+nav{
+    height: 100px;
+    width: 1280px;
+
+    margin: 0 auto;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        width: 70%;
+        height: inherit;
+        
+        //background-color: green;
+
+  
+
+        //background-color: green;
+    }
+
+    .links{
+
+       // background-color: blue;
+
+        height: inherit;
+        width: 30%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a{
+            text-decoration: none;
+
+            color: rgb(106, 106, 106);
+
+            font-size: 14px;
+            font-family: $main-font;
+        }
+    }
+}
+
+.content{
+    //background-color: aquamarine;
+
+    padding:50px;
+
+    text-align: center;
+
+    h1{
+        margin-bottom: 100px;
+    }
+
+    .products{
+
+        width: 900px;
+        min-height: 50px;
+
+        margin: 0 auto;
+
+        
+
+        .product{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            margin-bottom: 100px;
+
+            //background-color: blueviolet;
+
+            .prod-image{
+                height: 350px;
+                width: 350px;
+                border-radius: 50%;
+
+                background-color: green;
+
+                background-image: url(../images/home-explore-bikes.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                
+            }
+
+            .prod-description{
+                width: 500px;
+            }
+
+        }
+    }
+}

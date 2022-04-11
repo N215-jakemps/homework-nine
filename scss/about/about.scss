@@ -1,0 +1,68 @@
+.about-page{
+
+    margin: 50px;
+    width: 1280px;
+
+    //background-color: aqua;
+
+    margin: 0 auto;
+
+    h1{
+        text-align: left;
+
+        padding-bottom: 50px;
+        padding-left: 65px;
+
+        font-size: 48px;
+        font-family:$main-font;
+        font-weight: bold;
+    }
+
+    .about-photographer{
+
+        width: 1280px;
+        min-height: 100px;
+
+        //background-color: green;
+
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        .about-photographer-description{
+
+            width: 50%;
+            min-height: 100px;
+
+        }
+
+        .profile-pic{
+
+            width: 40%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img{
+
+                height: 300px;
+                width: 300px;
+
+                border-radius: 50%;
+                
+            }
+
+            h4{
+                //text-align: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}

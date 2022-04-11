@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url(../lib/futura/futura\ light\ bt.ttf);
+}
+nav {
+  height: 100px;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 70%;
+  height: inherit;
+}
+nav .links {
+  height: inherit;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .links a {
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+  font-size: 14px;
+  font-family: "Futura";
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+}
+.content h1 {
+  margin-bottom: 100px;
+}
+.content .products {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .products .product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.content .products .product .prod-image {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-color: green;
+  background-image: url(../images/home-explore-bikes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .products .product .prod-description {
+  width: 500px;
+}
+
+.gallery {
+  margin: 50px;
+}
+.gallery h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 48px;
+  font-family: "Futura";
+}
+.gallery .gallery-images {
+  max-width: 1280px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gallery .gallery-images .gallery-images-columnleft {
+  width: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery .gallery-images .gallery-images-columnleft .sixteenbynine {
+  width: 400px;
+  height: 710px;
+  margin-bottom: 20px;
+}
+.gallery .gallery-images .gallery-images-columnleft .sixteenbynine img {
+  width: 400px;
+  height: 710px;
+}
+.gallery .gallery-images .gallery-images-columnleft .fourbyfive {
+  height: 500px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.gallery .gallery-images .gallery-images-columnleft .fourbyfive img {
+  width: 400px;
+  height: 500px;
+}
+.gallery .gallery-images .gallery-images-columnmiddle {
+  width: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery .gallery-images .gallery-images-columnmiddle .sixteenbynine {
+  width: 400px;
+  height: 710px;
+  margin-bottom: 20px;
+}
+.gallery .gallery-images .gallery-images-columnmiddle .sixteenbynine img {
+  width: 400px;
+  height: 710px;
+}
+.gallery .gallery-images .gallery-images-columnmiddle .fourbyfive {
+  height: 500px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.gallery .gallery-images .gallery-images-columnmiddle .fourbyfive img {
+  width: 400px;
+  height: 500px;
+}
+.gallery .gallery-images .gallery-images-columnright {
+  width: 400px;
+  min-height: 400px;
+}
+.gallery .gallery-images .gallery-images-columnright .sixteenbynine {
+  width: 400px;
+  height: 710px;
+  margin-bottom: 20px;
+}
+.gallery .gallery-images .gallery-images-columnright .sixteenbynine img {
+  width: 400px;
+  height: 710px;
+}
+.gallery .gallery-images .gallery-images-columnright .fourbyfive {
+  height: 500px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.gallery .gallery-images .gallery-images-columnright .fourbyfive img {
+  width: 400px;
+  height: 500px;
+}
+
+.about-page {
+  margin: 50px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.about-page h1 {
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 65px;
+  font-size: 48px;
+  font-family: "Futura";
+  font-weight: bold;
+}
+.about-page .about-photographer {
+  width: 1280px;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-page .about-photographer .about-photographer-description {
+  width: 50%;
+  min-height: 100px;
+}
+.about-page .about-photographer .profile-pic {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-page .about-photographer .profile-pic img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.about-page .about-photographer .profile-pic h4 {
+  margin-top: 20px;
+}
+
+.contact {
+  margin: 50px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.contact h1 {
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 65px;
+  font-size: 48px;
+  font-family: "Futura";
+  font-weight: bold;
+}
+.contact .collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.contact .collection .contact-image {
+  width: 50%;
+  height: inherit;
+}
+.contact .collection .contact-image img {
+  height: 600px;
+  width: 640px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: 50% 60%;
+  overflow: hidden;
+}
+.contact .collection .contact-form {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+.contact .collection .contact-form .top-boxes .firstname {
+  margin-left: 15px;
+  width: 45%;
+  height: 50px;
+  background-color: rgb(226, 226, 226);
+  border: 1px black;
+}
+.contact .collection .contact-form .email-box .email {
+  width: 94%;
+  height: 50px;
+  margin-left: 15px;
+  background-color: rgb(226, 226, 226);
+  border: black 2px;
+}
+.contact .collection .contact-form .subject-box .subject {
+  width: 94%;
+  height: 50px;
+  margin-left: 15px;
+  background-color: rgb(226, 226, 226);
+  border: 1px black;
+}
+.contact .collection .contact-form .message-box .message {
+  width: 94%;
+  height: 150px;
+  margin-left: 15px;
+  background-color: rgb(226, 226, 226);
+  border: 1px black;
+}
+.contact .collection .contact-form .submit {
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  border: solid black;
+  border-width: 2px;
+}
+.contact .collection .contact-form .submit p {
+  color: #000;
+  text-align: center;
+  margin-top: 13px;
+  font-family: "Futura";
+}
+
+.blog {
+  margin: 50px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.blog h1 {
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 120px;
+  font-size: 48px;
+  font-family: "Futura";
+}
+.blog .collection {
+  width: 1280px;
+  min-height: 425px;
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.blog .collection .date-released {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(105, 171, 168);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: -210px;
+}
+.blog .collection .date-released .one {
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 98;
+  margin-bottom: -1px;
+  margin-top: 10px;
+}
+.blog .collection .date-released .two {
+  font-size: 12px;
+}
+.blog .collection .blog-info {
+  width: 900px;
+  height: 375px;
+}
+.blog .collection .blog-info img {
+  height: 300px;
+  width: 900px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: 50% 60%;
+  overflow: hidden;
+}
+.blog .collection .blog-info .blog-title {
+  height: 22px;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+.blog .collection .blog-info .blog-title p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.blog .collection .blog-info .blog-description {
+  height: 64px;
+  width: 380px;
+}
+.blog .collection .blog-info .blog-description p {
+  font-size: 13px;
+}
+.blog .collection:hover {
+  cursor: pointer;
+}
+.blog .collection:hover .blog-info img {
+  height: 350px;
+  width: 950px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=styles.css.map */
